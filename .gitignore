@@ -3,3 +3,6 @@ models/AQI_ForestRegressor.pkl
 data/
 ZOUT_PM25_MultiOutputRegressor.py
 ZOUT_test.py
+temp.py
+TimeForecasting_2.py
+TimeSeriesForecasting.py

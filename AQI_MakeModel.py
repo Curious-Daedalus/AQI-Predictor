@@ -12,8 +12,10 @@ class BoosterRegression:
         pass
           
     def generateModel(self,CSV_FilePath,modelName="AQI_GradientBoosting"):
+        
         self.CSV_FilePath = CSV_FilePath
         self.modelName = modelName
+
         self.modelPath = f"models\\{self.modelName}.pkl"
 
         df = csv_DataProcessing.process_csv(input_file=self.CSV_FilePath)
@@ -45,7 +47,7 @@ class BoosterRegression:
 
     def details(self):
         try : 
-            details = {"Model Name": self.modelName, "CSV_FileTrainData" : self.CSV_FilePath, "R^2 Value" : self.r2Value, "Mean Square Value" : self.mseValue}
+            details = {"Model Name": self.modelName, "CSV_FileTrzainData" : self.CSV_FilePath, "R^2 Value" : self.r2Value, "Mean Square Value" : self.mseValue}
         except:
             print("Model doesn't exist")
             return None
