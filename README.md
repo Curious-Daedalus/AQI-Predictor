@@ -10,4 +10,4 @@ Later on to be added
 extract the zip file, then run ```run_model.py``` file
 
 
-Model has been trained [this](https://www.kaggle.com/datasets/rohanrao/air-quality-data-in-india) kaggle dataset specifically using the ```city_day.csv``` 
+Model has been trained on [this](https://www.kaggle.com/datasets/rohanrao/air-quality-data-in-india) kaggle dataset specifically using the ```city_day.csv``` 
