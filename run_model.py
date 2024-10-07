@@ -9,3 +9,4 @@ print(future_X)
 
 future_PM2_5 = model.predict(future_X)
 print(f'Predicted PM2.5 for the given values : {future_PM2_5[0]:.2f}')
+
