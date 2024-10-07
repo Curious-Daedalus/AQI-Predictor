@@ -1,0 +1,26 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+navbar-light {
+    background-color: #f0f0f0;
+}
+
+problem-statement, .why-important, .solution, .datasets, .social-ecological-impact, .integration, .demo, .future-potential {
+    padding: 50px 0;
+}
+
+h1 {
+    color: #00698f;
+}
+
+section {
+    background-color: #f9f9f9;
+    border-bottom: 1px solid #ddd;
+}
+
+footer {
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}

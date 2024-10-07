@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flask Interactive Graph with Plotly</title>
+    <!-- Include Plotly.js from CDN -->
+    <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+</head>
+<body>
+    <h1>Interactive Test Plot</h1>
+    <div id="graph"></div>
+
+    <script type="text/javascript">
+        // Safely parse the graphJSON passed from Flask to ensure it's valid
+        var graphJSON = {{ graphJSON , tojson , safe }};
+        Plotly.newPlot('graph', graphJSON);
+    </script>
+</body>
+</html>
+
+
