@@ -7,8 +7,7 @@ Later on to be added
 - increase Accuracy thru algo
 - Instead of omitting data for unavailability of data. use imputation algos to complete it
 
-download zip, then extract
-run ```run_model.py``` file
+extract the zip file, then run ```run_model.py``` file
 
 
 Model has been trained [this](https://www.kaggle.com/datasets/rohanrao/air-quality-data-in-india) kaggle dataset specifically using the ```city_day.csv``` 
